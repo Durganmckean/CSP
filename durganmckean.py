@@ -4,6 +4,9 @@ import turtle as trtl
 painter = trtl.Turtle()
 painter.pensize(5)
 
+circle_color = input("What color do you want for the circles?")
+painter.color(user_color)
+
 painter.penup()
 painter.goto(-40,20)
 painter.pendown()
